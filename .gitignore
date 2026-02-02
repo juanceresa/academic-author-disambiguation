@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Testing
+.pytest_cache/
+htmlcov/
+.coverage
+.coverage.*
+
+# Ruff
+.ruff_cache/
+
+# Project data (bulk outputs - not tracked)
+publicaciones_scopus_excel/
+publicaciones_openalex_per_researcher/
+openalex_document_tables/
+researcher_excels/
+scopus_q_results/
+excel_dir/
+data/
+logs/
+test/
+
+# Caches and generated files
+ins_id_cache.json
+dump.json
+*.log
+
+# Sensitive config
+config.json
+
+# Legacy directories (migrated to src/)
+/BigQuery/
+/GoogleSch/
+
+# Excel outputs in root (keep samples/ tracked)
+*.xlsx
+*.csv
+!samples/*.xlsx
+!samples/*.csv
