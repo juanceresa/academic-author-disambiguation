@@ -19,6 +19,7 @@ ENV/
 # IDE
 .idea/
 .vscode/
+.claude/
 *.swp
 *.swo
 
@@ -49,6 +50,8 @@ dump.json
 
 # Sensitive config
 config.json
+DEMO_PREP.md
+demo/
 
 # Legacy directories (migrated to src/)
 /BigQuery/
